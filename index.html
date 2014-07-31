@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Apparels</title>
+<style>
+body{background:#2c3e50;font-family:"Minion Pro";}
+#main_container{position:absolute;left:0%;top:0%;height:100%;width:100%;background:url(TransparentMesh2.png);background-repeat: repeat;}
+#header{width:100%;background:white;position:absolute;top:0%;left:0%;height:8%;top:3%;}
+#ques{position:absolute;top:15%;left:15%;background:white;width:70%;height:300%;}
+</style>
+<script>
+        function ran(){
+        var x=Math.floor(Math.random() * 10000000000000001);
+
+                //alert(j);
+                }
+
+
+</script>
+
+</head>
+<body>
+<div id="main_container">
+<div id="header"><img src="logomasak-Recovered1.png"  /></div>
+<div id="ques">
+<form style="font-size:x-large;position:absolute;left:2%;top:3%;" method='POST' action='survey.php'>
+		<p>1.What's your age?*
+        <ul>
+        <li><input type="radio" name="age" value="10"/>10-20</li>
+        <li><input type="radio" name="age" value="20"/>20-30</li>
+        <li><input type="radio" name="age" value="30"/>30-40</li>
+        <li><input type="radio" name="age" value="40"/>40-50</li>
+        <li><input type="radio" name="age" value="50"/>50-60</li>
+        </ul></p>
+        2.Gender*<br />
+        <p>
+                <select style="width:40%;height:30px;position:relative;left:19%;border-radius:5px;"placeholder="---Please Select---" name='gender'>
+                        <option value='male'>Male</option>
+                        <option value='female'>Female</option>
+                </select>
+        </p>
+        3.Currently Studying/Qualifications
+        <p>
+                <select style="width:40%;height:30px;position:relative;left:19%;border-radius:5px;"placeholder="---Please Select---" name='qualification'>
+                        <option value='undergraduate'>Undergraduate</option>
+                        <option value='graduate'>Graduate</option>
+                        <option value='postgraduate'>Postgraduate</option>
+                </select></p>
+        
+
+
+        4.What you like to wear for college/for work? 
+        <p><ul><li><input type="radio" name="choice" value='potion'/>Potion</li>
+        <li><input type="radio" name="choice" value='kurti'/>Kurti</li>
+        <li><input type="radio" name="choice" value='jeans'/>Jeans</li>
+        <li><input type="radio" name="choice" value='salwar'/>Salwar</li>
+        <li><input type="radio" name="choice" value='tops'/>Tops</li>
+        <li><input type="radio" name="choice" value='skirts'/>Skirts</li>
+        </ul></p>
+        
+
+
+
+
+        5.What colour do you prefer in above attire?
+        <p><ul><li><input type="radio" name="color" value='red'/>Red</li>
+        <li><input type="radio" name="color" value='green'/>Green</li>
+        <li><input type="radio" name="color" value='blue'/>Blue</li>
+        <li><input type="radio" name="color" value='black'/>Black</li>
+        <li><input type="radio" name="color" value='pink'/>Pink</li>
+        <li><input type="radio" name="color" value='white'/>White</li>
+        </ul></p>
+
+
+
+
+        6.If you like a kutri/top, how much would you spend on an average for the same?
+        <p>
+                <ul>
+                        <li><input type="radio" name="pay" value='0'/>0-1000</li>
+                        <li><input type="radio" name="pay" value='1000'/>1000-2500</li>
+                        <li><input type="radio" name="pay" value='2500'/>2500-5000</li>
+                        <li><input type="radio" name="pay" value='5000'/>5000-8000</li>
+                        <li><input type="radio" name="pay" value='10000'/>8000-10000</li>
+                 </ul>
+         </p>
+ 	
+
+
+
+
+
+        7. Would you prefer to go to shop and see the product and then buy the garment or do you prefer to buy online?*
+        <p>
+                <ul>
+                        <li><input type="radio" name="pref" value='shop'/>I prefer shop</li>
+                        <li><input type="radio" name="pref" value='online'/>I prefer online purchase</li>
+                        <li><input type="radio" name="pref" value='both'/> Both</li>
+                </ul>
+        </p>
+		
+
+
+        8. If you get chance to buy combo deal/discount,what'll you buy along with dresses?
+        <p>
+                <ul>
+                         <li><input type="radio" name="combo" value='jewellary'/>Jewellary</li>
+                         <li><input type="radio" name="combo" value='shoe'/>Shoe</li>
+                         <li><input type="radio" name="combo" value='bag'/>Bag</li>
+                         <li><input type="radio" name="combo" value='crutch'/>Crutch</li>
+                         <li><input type="radio" name="combo" value='bondi'/>Bondi</li>
+                         <li><input type="radio" name="combo" value='bangles'/>Bangles</li>
+                 </ul>
+         </p>
+ 
+
+        <input type="submit" style="position:absolute;bottom:-5%;left:40%;width:20%;height:2%;border-radius:2px;background:#33C;border:none;color:white;font-size:medium;" />
+</form>
+</div>
+</div>
+</body>
+</html>
